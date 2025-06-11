@@ -19,7 +19,7 @@ vk.token= your-vk-token
 quarkus.datasource.password = your-password
 quarkus.datasource.jdbc.url = your-url
 ...
-com.example.TaskManagerClient/mp-rest/url= http://localhost:8080/api (если локально развёртываете, то можете и так оставить)
+quarkus.rest-client."org.bubna.taskmanager.TaskManagerClient".url=http://localhost:8080/api (если локально развёртываете, то можете и так оставить)
 ```
 
 ```bash
