@@ -12,7 +12,7 @@ import jakarta.ws.rs.Path;
 
 
 @ApplicationScoped
-@RegisterRestClient(baseUri = "http://localhost:8080/api")
+@RegisterRestClient
 public interface TaskManagerClient {
 
     @POST
